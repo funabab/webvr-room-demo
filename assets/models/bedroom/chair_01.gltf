@@ -1,0 +1,215 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_unlit"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                7
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sofa001_Febric_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Node_97",
+            "translation" : [
+                -40.57250213623047,
+                14.770559310913086,
+                -15.96825122833252
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Sofa001",
+            "rotation" : [
+                -0.32376575469970703,
+                0.6286300420761108,
+                0.6286300420761108,
+                0.32376575469970703
+            ],
+            "translation" : [
+                -31.076812744140625,
+                15.968256950378418,
+                100.30329895019531
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Node_3"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "64115b41caee4e36b5fca7397a20fc8d.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.019568847492337227,
+                0.019568847492337227,
+                0.019568847492337227
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "Febric",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sofa001_Febric_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Febric_baseColor",
+            "uri" : "../../textures/bedroom/Febric_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 8350,
+            "max" : [
+                20.845809936523438,
+                -49.62095260620117,
+                31.936508178710938
+            ],
+            "min" : [
+                -16.73402976989746,
+                -87.91676330566406,
+                2.42031192779541
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8350,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8350,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 37464,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 100200,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100200,
+            "byteOffset" : 100200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 66800,
+            "byteOffset" : 200400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74928,
+            "byteOffset" : 267200
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 342128,
+            "uri" : "chair_01.bin"
+        }
+    ]
+}
