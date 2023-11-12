@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/aframe": "^1.0.5",
     "@types/three": "^0.136.1",
-    "aframe-inspector": "^1.2.0",
+    "aframe-inspector": "^1.4.2",
     "clean-webpack-plugin": "^4.0.0",
     "fast-glob": "^3.2.11",
     "html-loader": "^3.1.0",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "aframe": "^1.2.0",
-    "aframe-cursor-teleport-component": "^0.0.5",
+    "aframe-cursor-teleport-component": "^1.4.0",
     "aframe-event-set-component": "^5.0.0",
     "aframe-teleport-controls": "^0.3.1",
     "three": "^0.136.0"
